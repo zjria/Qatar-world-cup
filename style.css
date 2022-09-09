@@ -1,0 +1,265 @@
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+/* Header Section */
+.header-section {
+    margin: 20px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    background: #161616;
+    border-radius: 30px;
+    height: 646px;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.header-container .header-text {
+    color: #FFFFFF;
+    width: 531px;
+    padding: 57px;
+}
+
+.header-container .header-text h1 {
+    font-size: 70px;
+    bottom: 20px;
+}
+
+.header-container .header-text p {
+    font-size: 16px;
+}
+
+.header-container .header-text button {
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    color: white;
+}
+
+.header-img img {
+    width: 30%;
+    position: absolute;
+}
+
+.header-img .img-one {
+    top: 10px;
+    width: 20%;
+    right: 206px;
+}
+
+.header-img .img-tow {
+    right: 10px;
+    width: 20%;
+    z-index: 1;
+    top: 140px;
+}
+
+.header-img .img-three {
+    bottom: 244px;
+    width: 21%;
+    right: 119px;
+}
+
+.header-img .img-four {
+    left: 77%;
+    top: 2px;
+    width: 14%;
+}
+
+.header-img .img-five {
+    top: 108px;
+    width: 21%;
+    right: 268px;
+}
+
+.header-img .img-six {
+    right: 1px;
+    width: 13%;
+    top: 39px;
+}
+
+/* Nav Section Start */
+.nav-manu-section {
+    margin: 20px;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-section {
+    background: #161616;
+    border-radius: 10px;
+    margin-right: 24px;
+    width: 500px;
+    height: 300px;
+}
+
+.all-button {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 0px 30px;
+}
+
+.all-button button {
+    padding: 17px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.all-button button a {
+    text-decoration: none;
+    color: #161616;
+}
+
+.all-button button:hover {
+    background-color: #DD0000;
+    color: white;
+}
+
+/* Main Section */
+.main-section {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.transfer {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.button-text {
+    padding: 20px;
+}
+
+.button-text button {
+    padding: 5px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.button-text p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.transfer img {
+    width: 100%;
+}
+
+.container .nav-section {
+    width: 312px;
+}
+
+.icons {
+    display: flex;
+    color: rgba(22, 22, 22, 0.7);
+    font-size: 16px;
+}
+
+.icons p {
+    margin-right: 40px;
+}
+
+/* Footer Container style start */
+.footer-container {
+    width: 100%;
+    background: #161616;
+    margin-top: 50px;
+}
+
+.footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.footer hr {
+    margin: 0px 20px;
+}
+
+.footer-container h2 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.footer-container .footer-text {
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-container .footer-text ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 20px; */
+    padding: 0px;
+}
+
+.footer-container .footer-text ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px 20px;
+    color: #B9B9B9;
+    font-size: 16px;
+}
+
+/* Social Icons style start */
+.social-icons {
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.social-icons ul {
+    display: flex;
+}
+
+.social-icons ul li {
+    background-color: coral;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid ghostwhite;
+    list-style: none;
+    margin: 10px;
+
+}
+
+.social-icons ul li a {
+    color: white;
+}
