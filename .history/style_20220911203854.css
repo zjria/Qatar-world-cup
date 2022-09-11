@@ -187,7 +187,6 @@ body {
     justify-content: center;
     margin: 0 auto;
     margin-right: -25%;
-    display: none;
 }
 
 .view-all button {
@@ -394,7 +393,6 @@ body {
         display: flex;
         margin: 20px;
         flex-direction: column;
-        padding-top: 20px;
     }
 
     .view-all {
@@ -442,14 +440,5 @@ body {
         grid-column-gap: 24px;
         grid-row-gap: 24px; */
         grid-template-columns: repeat(2, 1fr);
-        margin-top: 25px;
-    }
-
-    .footer-container .footer-text ul li {
-        /* text-decoration: none;
-        list-style: none;
-        margin: 20px 20px;
-        color: #B9B9B9; */
-        font-size: 21px;
     }
 }

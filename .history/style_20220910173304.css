@@ -80,15 +80,14 @@ body {
 .nav-container {
     display: flex;
     margin: 20px;
-    flex-direction: row;
 }
 
 .nav-section {
     background: #161616;
     border-radius: 10px;
     margin-right: 24px;
+    width: 500px;
     height: 300px;
-    width: 312px;
 }
 
 .all-button {
@@ -171,6 +170,10 @@ body {
     width: 100%;
 }
 
+.container .nav-section {
+    width: 312px;
+}
+
 .icons {
     display: flex;
     color: rgba(22, 22, 22, 0.7);
@@ -187,7 +190,6 @@ body {
     justify-content: center;
     margin: 0 auto;
     margin-right: -25%;
-    display: none;
 }
 
 .view-all button {
@@ -288,20 +290,21 @@ body {
     color: white;
 }
 
-/* Mobile Responsive Style */
-
+/* Media Query styles */
 @media only screen and (max-width: 688px) {
-
     .header-container .header-text h1 {
         font-size: 31px;
         bottom: 20px;
     }
 
     .header-container {
+        /* display: flex; */
+        /* margin: 20px; */
+        /* background: #161616; */
         flex-direction: column;
         text-align: center;
         align-items: center;
-        width: 95%;
+        width: 334px;
     }
 
     .header-img .ball {
@@ -313,143 +316,11 @@ body {
     }
 
     .header-img {
+        /* background: url(images/goal-bar.png); */
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
         background-size: 80%;
-        width: 115%;
+        width: 90%;
         padding: 50px 0px;
-    }
-
-    .all-button {
-        display: flex;
-        flex-direction: row;
-        margin: 0px 0px 0px 0px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .all-button button {
-        padding: 12px;
-        margin: 6px;
-        border-radius: 7px;
-        font-weight: 700;
-        font-size: 13px;
-    }
-
-    .nav-section {
-        background: #161616;
-        border-radius: 10px;
-        width: 95%;
-        height: 55px;
-        padding: 20px;
-    }
-
-    .nav-container {
-        display: flex;
-        margin: 20px;
-        flex-direction: column;
-    }
-
-    .main-section {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 24px;
-        grid-row-gap: 24px;
-    }
-
-    .footer-container .footer-text ul {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        flex-direction: column;
-    }
-
-    .match-vs #img-style {
-        width: 35%;
-    }
-
-    .view-all {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        margin-right: -25%;
-        display: none;
-    }
-}
-
-/* Tablets Responsive Style */
-@media only screen and (min-width: 689px) and (max-width: 992px) {
-
-    .header-container {
-        display: flex;
-        border-radius: 10px;
-        margin-bottom: 130px;
-        margin: 20px;
-        background: #161616;
-        width: 95%;
-    }
-
-    .nav-container {
-        display: flex;
-        margin: 20px;
-        flex-direction: column;
-        padding-top: 20px;
-    }
-
-    .view-all {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        margin-right: -25%;
-
-    }
-
-    .nav-section {
-        background: #161616;
-        border-radius: 10px;
-        margin-right: 24px;
-        height: 130px;
-        width: 99%;
-    }
-
-    .all-button {
-        display: flex;
-        flex-direction: row;
-        margin: 30px 30px 0px 30px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .all-button button {
-        padding: 17px 53px;
-        border-radius: 10px;
-        font-weight: 700;
-        font-size: 16px;
-        margin-right: 70px;
-    }
-
-    .header-img .ball {
-        /* justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        display: flex; */
-        margin-top: 57%;
-    }
-
-    .main-section {
-        /* display: grid;        
-        grid-column-gap: 24px;
-        grid-row-gap: 24px; */
-        grid-template-columns: repeat(2, 1fr);
-        margin-top: 25px;
-    }
-
-    .footer-container .footer-text ul li {
-        /* text-decoration: none;
-        list-style: none;
-        margin: 20px 20px;
-        color: #B9B9B9; */
-        font-size: 21px;
     }
 }

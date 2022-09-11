@@ -187,7 +187,6 @@ body {
     justify-content: center;
     margin: 0 auto;
     margin-right: -25%;
-    display: none;
 }
 
 .view-all button {
@@ -446,10 +445,10 @@ body {
     }
 
     .footer-container .footer-text ul li {
-        /* text-decoration: none;
+        text-decoration: none;
         list-style: none;
         margin: 20px 20px;
-        color: #B9B9B9; */
+        color: #B9B9B9;
         font-size: 21px;
     }
 }
